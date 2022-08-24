@@ -5,3 +5,61 @@
         background-blend-mode: multiply;
     }
 }
+.contact{
+    &-s3{
+        background-color: #999!important;
+        background-blend-mode: multiply;
+    }
+}
+.sessions{
+    &-s3{
+        background-color: #999!important;
+        background-blend-mode: multiply;
+    }
+}
+.text{
+    &-shadow{
+        text-shadow: $text__shadow;
+    }
+}
+header{
+    z-index: 100;
+}
+
+@media all and (max-width: 767px){
+    .index{
+        &-s1{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .navbar{
+        &-nav{
+            background-color: #999;
+            border: 1px solid #333;
+            opacity: 0.9;
+            padding: 10px;
+        }
+    }
+    .teachers{
+        &-s1{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply;
+        }
+    }
+    .video,.sessions,.gallery,.contact,.about{
+        &-s1,&-s2,&-s3{
+            *{
+                color: #fff !important;
+            }
+            background-color: #999!important;
+            background-blend-mode: multiply;
+        }
+    }
+}

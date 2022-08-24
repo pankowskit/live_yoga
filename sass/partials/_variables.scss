@@ -1,13 +1,55 @@
 $prefix: "../img/";
 $footer__height: 53px;
+$img__about: 
+    $prefix+"about-s1.jpg",
+    $prefix+"about-s2.jpg",
+    $prefix+"about-s3.jpg";
 $img__comingsoon: $prefix+"comingsoon.jpg"; 
+$img__contact: 
+    $prefix+"contact-s1.jpg",
+    $prefix+"contact-s2.jpg",
+    $prefix+"contact-s3.jpg";
 $img__error: $prefix+"error.jpg"; 
+$img__gallery: 
+    $prefix+"gallery-s1.jpg",
+    $prefix+"gallery-s2.jpg",
+    $prefix+"gallery-s3.jpg";
+$img__index: $prefix+"index-s1.jpg";
 $img__privacy: $prefix+"privacy.jpg"; 
+$img__sessions: 
+    $prefix+"sessions-s1.jpg",
+    $prefix+"sessions-s2.jpg",
+    $prefix+"sessions-s3.jpg";
+$img__teachers: 
+    $prefix+"teachers-s1.jpg",
+    $prefix+"teachers-s2.jpg";
+$img__user: $prefix+"user-s1.jpg";
+$img__video: 
+    $prefix+"video-s1.jpg",
+    $prefix+"video-s2.jpg",
+    $prefix+"video-s3.jpg";
 $section__classes:
+    "about",
     "comingsoon",
+    "contact",
     "error",
-    "privacy";
+    "gallery",
+    "index",
+    "privacy",
+    "sessions",
+    "teachers",
+    "user",
+    "video";
 $section__images:
-    $img__comingsoon,
+    $img__about,
+    $img__comingsoon, 
+    $img__contact,
     $img__error,
-    $img__privacy;
+    $img__gallery,
+    $img__index,
+    $img__privacy,
+    $img__sessions,
+    $img__teachers,
+    $img__user,
+    $img__video;
+$text__shadow: 1px 1px 3px #333;
